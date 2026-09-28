@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO APP</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="module" src="main.js"></script>
+
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <h1>TODO APP</h1>
+    </header>
+    <section class="input-section">
+      <div class="input-wrapper">
+        <input type="text" placeholder="Escribe una tarea..." class="todo-input" required>
+        <button type="button" class="add-btn" aria-label="Agregar tarea">+</button>
+      </div>
+      <span class="error-message">El campo de tarea no puede estar vacío.</span>
+    </section>
+    <main class="todo-list-container">
+
+      <template id="todo-item-template">
+        
+        <li class="todo-item">
+          <button class="action-btn delete-btn" title="Eliminar">✕</button>
+          <div class="task-content">
+            <input type="text" class="task-text" value="Welcome to the todo app!" readonly>
+          </div>
+          <button class="action-btn edit-btn" title="Editar">✎</button>
+          <button class="action-btn status-btn" title="Marcar/Completar">✓</button>
+        </li>
+
+      </template>
+      
+      <ul class="todo-list">
+      
+
+
+      </ul>
+    </main>
+    <footer class="app-footer">
+      <div class="badge badge-total">Total: <span>3</span></div>
+      <div class="badge badge-completed">Completed: <span>1</span></div>
+      <div class="badge badge-incomplete">Incomplete: <span>2</span></div>
+    </footer>
+  </div>
+</body>
+</html>

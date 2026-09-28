@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "text": "holiiidgsddgs",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "text": "sfsdf",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "text": "sdfsdfd",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "text": "sgsdg2",
+      "completed": false,
+      "id": 4
+    }
+  ],
+  "contacts": []
+}
